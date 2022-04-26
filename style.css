@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-image: url(./background.jpeg);
+    background-repeat: no-repeat;
+    font-family: 'Courier New', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 5rem;
+}
+.box{
+    border: .4rem solid black;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding: 1rem 0.5rem;
+    width: 10rem;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    transition: all 0.2s;
+}
+.box h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.box p{
+    color: yellow;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
